@@ -36,13 +36,11 @@ export function Hero() {
         className="flex flex-col md:flex-row justify-between items-start md:items-end pt-12 mt-12 border-t border-white/[0.07] gap-8"
       >
         <p className="font-mono text-[13px] text-muted leading-[1.9] max-w-xs">
-          Building{' '}
-          <span className="text-white">production-ready</span> websites
+          Building websites
           <br />
-          for real clients — from first sketch
+          from first sketch to live deploy.
           <br />
-          to live deploy.{' '}
-          <span className="text-white">NOC/SRE at Trustly.</span>
+          <span className="text-white">Former NOC Analyst at Trustly.</span>
         </p>
 
         <div className="flex flex-col items-start md:items-end gap-3">

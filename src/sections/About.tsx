@@ -35,11 +35,11 @@ export function About() {
             <br />
             <br />
             I take projects from idea to production — handling design,
-            development and content management end-to-end. Every project on this
-            page is a real client site, live on the web.
+            development and content management end-to-end. Some of the projects
+            below are client work, others are things I build to learn.
             <br />
             <br />
-            By day I work as a{' '}
+            Until September 2026 I worked as a{' '}
             <span className="text-white">NOC Analyst at Trustly</span>,
             monitoring critical financial infrastructure. That background means I
             take reliability, documentation and attention to detail seriously —

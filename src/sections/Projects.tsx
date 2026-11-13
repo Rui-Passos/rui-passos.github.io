@@ -38,9 +38,9 @@ export function Projects() {
             {/* Right: content */}
             <div>
               <h2 className="text-[clamp(36px,5vw,72px)] font-extrabold tracking-[-0.03em] leading-[0.95] mb-6">
-                {project.liveUrl ? (
+                {project.liveUrl || project.githubUrl ? (
                   <a
-                    href={project.liveUrl}
+                    href={project.liveUrl ?? project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-accent transition-colors duration-300"
@@ -48,14 +48,7 @@ export function Projects() {
                     {project.title}
                   </a>
                 ) : (
-                  <a
-                    href={project.githubUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-accent transition-colors duration-300"
-                  >
-                    {project.title}
-                  </a>
+                  project.title
                 )}
               </h2>
 
